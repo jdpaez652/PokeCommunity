@@ -1,0 +1,26 @@
+.pokemon_container {
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.pokemon_container img {
+    min-height: 50px;
+    height: 220px;
+}
+
+.pokemon_container h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0;
+    margin: 0rem 0 1rem 0;
+}
+
+.pokemon_container p {
+    font-size: larger;
+    text-align: right;
+    margin: 1rem 0 0rem 0;
+}
+
+.hovering {
+    border-color: rgb(243, 235, 125);
+}

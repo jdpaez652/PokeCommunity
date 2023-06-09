@@ -1,0 +1,17 @@
+.page_wrapper {
+    position: relative;
+    min-height: calc(100vh - 10rem);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.page_wrapper.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}

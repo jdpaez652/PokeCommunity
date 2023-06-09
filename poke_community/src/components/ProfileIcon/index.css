@@ -1,0 +1,12 @@
+.profile_avatar img {
+    border-radius: 50%;
+    object-fit: contain;
+    width: 3.5rem;
+    vertical-align: middle;
+    padding: 2px;
+}
+
+.profile_avatar {
+    border: 2px solid black;
+    border-radius: 50%;
+}
